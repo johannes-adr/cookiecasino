@@ -66,7 +66,7 @@
     }
 </script>
 
-Cookies: {count} <button onclick={neuerCookie}>cookie</button><br />
+Cookies: {count} <button onclick={neuerCookie}>🍪</button><br />
 
 <button onclick={()=>kaufeAutoklicker(10, 15, 0.5)}>autoclicker 10</button><br />
 
@@ -76,8 +76,12 @@ Cookies: {count} <button onclick={neuerCookie}>cookie</button><br />
 
 <button onclick={()=>kaufeAutoklicker(100, Infinity, 2.0)}>autoclicker Endless 100</button><br />
 
+<button onclick={()=>kaufeAutoklicker(1500, Infinity, 1.0)}>autoclicker Endless 1500</button><br />
 
-<button onclick={()=>kaufeLotto(15, 6, )}>lottoschein 30</button><br />
+<button onclick={()=>kaufeAutoklicker(30000, Infinity, 0.5)}>autoclicker Endless 30000</button><br />
+
+<button onclick={()=>kaufeLotto(30, 6, )}>lottoschein 30</button><br />
+
 <div class="grid grid-cols-3">
     <span>Zahl1</span>
     <span>Zahl2</span>
@@ -105,3 +109,4 @@ Cookies: {count} <button onclick={neuerCookie}>cookie</button><br />
         @apply text-red-600
     }
 </style>
+
